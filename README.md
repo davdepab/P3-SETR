@@ -1,4 +1,4 @@
-# Controlador en Tiempo Real para Máquina Expendedora en Arduino
+# Controlador en Tiempo Real para Máquina Expendedora de Café en Arduino
 
 (Representación visual del proyecto)  
 <img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/45df7206-1955-45e2-81ce-44de10ccdd82" />  
