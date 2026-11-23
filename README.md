@@ -8,7 +8,7 @@ En este proyecto he diseñado e implementado el sistema de control software para
 
 El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un módulo joystick analógico con pulsador integrado, un sensor de temperatura y humedad DHT11, un sensor de distancia por ultrasonidos HC-SR04, un pulsador externo y dos LEDs indicadores (`LED1` y `LED2`).
 
-![Esquemático del circuito en Fritzing/Tinkercad](ruta/a/tu/esquematico.png)
+<img width="2173" height="1559" alt="sketch_bb" src="https://github.com/user-attachments/assets/36f558f4-6283-4e91-82b6-d623c5e15815" />
 
 ### Distribución de Pines y Criterios de Conexión
 
@@ -23,7 +23,8 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 
 ### Fotos del Montaje Físico
 
-p3_image.jpg
+<img width="4096" height="3072" alt="p3_image" src="https://github.com/user-attachments/assets/977dcfb7-0480-4f3c-80f7-a28f8324aef1" />
+
 * Adicionalmente he diseñado una carcasa capaz de albergar todos los componentes de forma unificada, útil y cómoda para el usuario utilizando el programa de diseño CAD: **OnShape**. El botón de acceso al modo administrador y reinicio del modo de servicio no está contemplado en la carcasa, permanece en la protoboard junto al cableado de todos los componentes, simulando un acceso restringido y fuera del alcance del usuario, siendo así únicamente accesible por un administrador.
 ![Detalle de la pantalla LCD y sensores en funcionamiento](ruta/a/tu/foto_montaje_2.jpg)
 
