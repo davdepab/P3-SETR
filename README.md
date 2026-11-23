@@ -1,7 +1,7 @@
 # Controlador en Tiempo Real para Máquina Expendedora en Arduino
 
-<img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/45df7206-1955-45e2-81ce-44de10ccdd82" />
 (Representación visual del proyecto)  
+<img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/45df7206-1955-45e2-81ce-44de10ccdd82" />  
 
 
 En este proyecto he diseñado e implementado el sistema de control software para una máquina expendedora automática utilizando **Arduino UNO**. El objetivo central ha sido construir una arquitectura reactiva y determinista capaz de atender eventos físicos en tiempo real, leer sensores y gestionar la interfaz de usuario sin recurrir a esperas bloqueantes (`delay()`).
