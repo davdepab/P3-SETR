@@ -1,4 +1,4 @@
-# Controlador en Tiempo Real para Máquina Expendedora en Arduino
+<img width="2654" height="3013" alt="image" src="https://github.com/user-attachments/assets/4c9f52a7-9f26-4531-812b-51d6d5c8fcd1" /># Controlador en Tiempo Real para Máquina Expendedora en Arduino
 
 <img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/45df7206-1955-45e2-81ce-44de10ccdd82" />
 
@@ -11,8 +11,6 @@ En este proyecto he diseñado e implementado el sistema de control software para
 
 El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un módulo joystick analógico con pulsador integrado, un sensor de temperatura y humedad DHT11, un sensor de distancia por ultrasonidos HC-SR04, un pulsador externo y dos LEDs indicadores (`LED1` y `LED2`).
 
-<img width="2173" height="1559" alt="sketch_bb" src="https://github.com/user-attachments/assets/36f558f4-6283-4e91-82b6-d623c5e15815" />
-
 ### Distribución de Pines y Criterios de Conexión
 
 | Componente | Pin Arduino | Justificación técnica de la conexión |
@@ -22,7 +20,14 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 | **LED1 / LED2** | D5 / D6 | `LED2` está conectado a `~D6` porque requiere modulación por ancho de pulso (PWM) por hardware para variar su brillo progresivamente. |
 | **Joystick (SW / VRx / VRy)** | D7 / A0 / A1 | Los potenciómetros de los ejes usan entradas analógicas (`A0/A1`) y el pulsador integrado usa `D7` aprovechando la resistencia interna `INPUT_PULLUP`. |
 | **LCD 16x2 (RS, E, D4-D7)** | D13, D12, D11, D10, D9, D8 | Configurado en interfaz paralela de 4 bits para ahorrar cuatro pines digitales sin penalizar velocidad de escritura. |
-| **Sensor DHT11** | A2 | Utilizo el pin analógico `A2` en modo digital para mantener ordenado y despejado el bloque de pines digitales. |
+| **Sensor DHT11** | A2 | Utilizo el pin analógico `A2` en modo digital para mantener ordenado y despejado el bloque de pines digitales. |  
+
+
+<img width="2173" height="1559" alt="sketch_bb" src="https://github.com/user-attachments/assets/36f558f4-6283-4e91-82b6-d623c5e15815" />
+
+
+<img width="2654" height="3013" alt="image" src="https://github.com/user-attachments/assets/60bc3cb7-ddce-40fb-85d9-fbad06114a35" />
+
 
 ### Montaje Físico
 
