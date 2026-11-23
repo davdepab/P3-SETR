@@ -28,7 +28,13 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 
 * Adicionalmente he diseñado una carcasa capaz de albergar todos los componentes de forma unificada, útil y cómoda para el usuario utilizando el programa de diseño CAD: **OnShape**. El botón de acceso al modo administrador y reinicio del modo de servicio no está contemplado en la carcasa, permanece en la protoboard junto al cableado de todos los componentes, simulando un acceso restringido y fuera del alcance del usuario, siendo así únicamente accesible por un administrador.
 
-<img width="3504" height="2478" alt="Part Studio 1" src="https://github.com/user-attachments/assets/7c39565b-2976-44f1-bfd9-bca59b6d8cc2" />
+<img width="3504" height="2478" alt="Part Studio 1" src="https://github.com/user-attachments/assets/7c39565b-2976-44f1-bfd9-bca59b6d8cc2" />  
+
+* Montaje real sobre la carcasa impresa en 3D (PLA):
+
+<img width="3071" height="2714" alt="image" src="https://github.com/user-attachments/assets/3c60ab1f-48b1-4ae5-b732-5a7dc3b86c80" />
+
+<img width="2731" height="1987" alt="image" src="https://github.com/user-attachments/assets/daa26280-eb79-4362-8353-921f345d0c71" />
 
 
 ---
