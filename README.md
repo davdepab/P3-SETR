@@ -23,10 +23,13 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 
 ### Fotos del Montaje Físico
 
-<img width="4096" height="3072" alt="p3_image" src="https://github.com/user-attachments/assets/977dcfb7-0480-4f3c-80f7-a28f8324aef1" />
-
 * Adicionalmente he diseñado una carcasa capaz de albergar todos los componentes de forma unificada, útil y cómoda para el usuario utilizando el programa de diseño CAD: **OnShape**. El botón de acceso al modo administrador y reinicio del modo de servicio no está contemplado en la carcasa, permanece en la protoboard junto al cableado de todos los componentes, simulando un acceso restringido y fuera del alcance del usuario, siendo así únicamente accesible por un administrador.
 ![Detalle de la pantalla LCD y sensores en funcionamiento](ruta/a/tu/foto_montaje_2.jpg)
+
+<img width="3504" height="2478" alt="Part Studio 1" src="https://github.com/user-attachments/assets/7c39565b-2976-44f1-bfd9-bca59b6d8cc2" />
+
+
+<img width="4096" height="3072" alt="p3_image" src="https://github.com/user-attachments/assets/977dcfb7-0480-4f3c-80f7-a28f8324aef1" />
 
 ---
 
