@@ -1,4 +1,6 @@
 # Controlador en Tiempo Real para Máquina Expendedora en Arduino
+<img width="3071" height="2532" alt="image" src="https://github.com/user-attachments/assets/7111b01b-a1b5-4b08-8d63-23cef6c6af77" />
+
 
 En este proyecto he diseñado e implementado el sistema de control software para una máquina expendedora automática utilizando **Arduino UNO**. El objetivo central ha sido construir una arquitectura reactiva y determinista capaz de atender eventos físicos en tiempo real, leer sensores y gestionar la interfaz de usuario sin recurrir a esperas bloqueantes (`delay()`).
 
@@ -21,14 +23,12 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 | **LCD 16x2 (RS, E, D4-D7)** | D13, D12, D11, D10, D9, D8 | Configurado en interfaz paralela de 4 bits para ahorrar cuatro pines digitales sin penalizar velocidad de escritura. |
 | **Sensor DHT11** | A2 | Utilizo el pin analógico `A2` en modo digital para mantener ordenado y despejado el bloque de pines digitales. |
 
-### Fotos del Montaje Físico
+### Montaje Físico
 
 * Adicionalmente he diseñado una carcasa capaz de albergar todos los componentes de forma unificada, útil y cómoda para el usuario utilizando el programa de diseño CAD: **OnShape**. El botón de acceso al modo administrador y reinicio del modo de servicio no está contemplado en la carcasa, permanece en la protoboard junto al cableado de todos los componentes, simulando un acceso restringido y fuera del alcance del usuario, siendo así únicamente accesible por un administrador.
 
 <img width="3504" height="2478" alt="Part Studio 1" src="https://github.com/user-attachments/assets/7c39565b-2976-44f1-bfd9-bca59b6d8cc2" />
 
-
-<img width="4096" height="3072" alt="p3_image" src="https://github.com/user-attachments/assets/977dcfb7-0480-4f3c-80f7-a28f8324aef1" />
 
 ---
 
