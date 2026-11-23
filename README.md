@@ -14,7 +14,7 @@ El montaje físico integra los periféricos exigidos: una pantalla LCD 16x2, un 
 
 | Componente | Pin Arduino | Justificación técnica de la conexión |
 | :--- | :--- | :--- |
-| **Pulsador externo** | D2 | En Arduino UNO solo los pines `D2` y `D3` disponen de interrupciones externas por hardware (`INT0`/`INT1`). |
+| **Pulsador externo** | D2 | En Arduino UNO solo los pines `D2` y `D3` disponen de interrupciones externas por hardware (`INT0`/`INT1`). Además utilizo la resistencia interna de Arduino `INPUT_PULLUP` para simplificar el montaje del circuito. |
 | **Ultrasonidos (Trig / Echo)** | D3 / D4 | Pines digitales estándar para generar el pulso de disparo (`10 µs`) y medir el tiempo del eco de retorno. |
 | **LED1 / LED2** | D5 / D6 | `LED2` está conectado a `~D6` porque requiere modulación por ancho de pulso (PWM) por hardware para variar su brillo progresivamente. |
 | **Joystick (SW / VRx / VRy)** | D7 / A0 / A1 | Los potenciómetros de los ejes usan entradas analógicas (`A0/A1`) y el pulsador integrado usa `D7` aprovechando la resistencia interna `INPUT_PULLUP`. |
